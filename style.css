@@ -1,0 +1,44 @@
+.body {
+  margin: 0;
+  border: dashed 1px red;
+}
+
+.header {
+  display: flex;
+  border: dashed 1px green;
+  margin: auto;
+  width: 93%;
+  border: dashed 1px red;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  border: dashed 1px red;
+/*   padding: 24px 258px 0  0; */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  border: dashed 1px red;
+}
+
+.nav__link {
+  display: inline-block;
+  text-decoration: none;
+  border: dashed 1px red;
+}
+
+.buttons-header {
+  border: dashed 1px green;
+  display: inline-block;
+}
+
+.buttons-header__link {
+  border: dashed 1px red;
+/*   display: inline-block; */
+  text-decoration: none;
+}
