@@ -1,14 +1,11 @@
 .body {
   margin: 0 auto;
-  border: dashed 1px red;
 }
 
 .header {
   display: flex;
-  border: dashed 1px green;
   margin: 0 auto;
   max-width: 1340px;
-  border: dashed 1px red;
   justify-content: space-between;
 }
 
@@ -16,13 +13,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: dashed 1px red;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  border: dashed 1px red;
   width: 489px;
   justify-content: space-between;
 }
@@ -30,7 +25,6 @@
 .nav__link {
   display: inline-block;
   text-decoration: none;
-  border: dashed 1px red;
   font: 600 15px/18px "Montserrat", Arial, Helvetica, sans-serif;
   color: #000;
   position: relative;
@@ -57,8 +51,11 @@
   width: 100%;
 }
 
+.nav__link_active {
+  color: #e51937;
+}
+
 .buttons-header {
-  border: dashed 1px green;
   display: flex;
   align-items: center;
   width: 203px;
@@ -66,7 +63,6 @@
 }
 
 .buttons-header__link {
-  border: dashed 1px red;
   text-decoration: none;
   font: 600 15px/18px "Montserrat", Arial, Helvetica, sans-serif;
   color: #000;
@@ -74,6 +70,118 @@
   position: relative;
 }
 
-.buttons-header__link:last-child {
-  
+.main {
+  display: block;
+}
+
+.main-section {
+  display: flex;
+  max-width: 1340px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url("img/Tesla-Wordmark-Red.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 18%;
+}
+
+.main-section__title {
+  display: block;
+  font: 600 90px/95px "Montserrat", Arial, Helvetica, sans-serif;
+  margin: 58px 0 0 0;
+}
+
+.main-section__post-title {
+  font: 15px/18px "Montserrat", Arial, Helvetica, sans-serif;
+  margin: 0 0 28px 0;
+}
+
+.main-section__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 26px 0 37px 0;
+}
+
+.list-character {
+  display: flex;
+  width: 100%;
+  max-width: 375px;
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.list-character__item {
+  display: flex;
+  align-items: center;
+}
+
+.img-speed {
+  margin-right: 14px;
+
+}
+
+.img-road {
+  margin-right: 11px;
+
+}
+
+.item-text__item-top {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+
+}
+
+.item-text__item-right {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+
+.item-text__item-but {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+
+
+.main-section__buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 106px;
+  text-transform: uppercase;
+  font: bold 13px/16px Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.test-drive {
+  display: flex;
+  text-decoration: none;
+}
+
+.test-drive__wheel {
+  margin-right: 8px;
+}
+
+.test-drive__text {
+  color: #000;
+  justify-content: center;
+}
+
+.link-order {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 45px;
+  padding: 10px 43px;
+  border: 2px solid #e51937;
+  color: #e51937;
 }
