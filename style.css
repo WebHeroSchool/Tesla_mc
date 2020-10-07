@@ -104,21 +104,20 @@
 
 .main-section__list {
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center; */
+  justify-content: space-between;
   width: 60%;
   margin: 27px 0 33px 0;
 }
 
 .list-character {
   display: flex;
-  /* width: 100%; */
+  width: 100%;
   max-width: 375px;
   list-style-type: none;
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 .list-character__item {
@@ -170,29 +169,30 @@
   align-items: center;
   /* margin-left: 106px; */
   text-transform: uppercase;
-  font: bold 13px/16px Montserrat, Arial, Helvetica, sans-serif;
+  font: bold 13px/16px "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 .test-drive {
   display: flex;
   text-decoration: none;
   align-items: center;
+  margin-right: 53px;
 }
 
 .test-drive__wheel {
-  /* margin-right: 8px; */
+
 }
 
 .test-drive__text {
   color: #000;
-  justify-content: center;
+  margin-right: 13px;
 }
 
 .link-order {
   display: inline-block;
   text-decoration: none;
-  /* margin-left: 45px; */
-  padding: 10px 43px;
+  padding: 10px 45px;
   border: 2px solid #e51937;
   color: #e51937;
+  scroll-margin-left: 40px;
 }
