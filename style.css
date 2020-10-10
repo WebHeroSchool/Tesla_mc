@@ -167,7 +167,6 @@
 .main-section__buttons {
   display: flex;
   align-items: center;
-  /* margin-left: 106px; */
   text-transform: uppercase;
   font: bold 13px/16px "Montserrat", Arial, Helvetica, sans-serif;
 }
@@ -176,7 +175,6 @@
   display: flex;
   text-decoration: none;
   align-items: center;
-  margin-right: 53px;
 }
 
 .test-drive__wheel {
@@ -185,14 +183,48 @@
 
 .test-drive__text {
   color: #000;
-  margin-right: 13px;
+  margin-left: 5px;
 }
 
 .link-order {
   display: inline-block;
   text-decoration: none;
-  padding: 10px 45px;
+  padding: 10px 40px;
   border: 2px solid #e51937;
   color: #e51937;
-  scroll-margin-left: 40px;
+  margin-left: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+
+  .header {
+  display: flex;
+  margin: 23px auto 5px;
+  max-width: 720px;
+  justify-content: space-between;
+}
+
+  .buttons-header {
+    width: auto;
+    padding-right: 0;
+  }
+
+  .nav,
+  .buttons-header__link {
+    display: none;
+    text-align: center;
+
+  }
+  
+  .buttons-header__burger: {
+    display: block;
+  }
+
+  .main-section {
+    max-width: 720px;
+    background-image: url("img/Tesla-Wordmark-Red.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 16%;
+    background-size: 86%;
+  }
 }
