@@ -100,6 +100,9 @@
 
 .main-section__img {
   margin-right: 75px;
+  background-image: url("main-section__img");
+  background-repeat: no-repeat;
+  background-position: 50% 16%;
 }
 
 .main-section__list {
@@ -127,16 +130,10 @@
 
 .img-speed {
   margin: 9px 10px 0 0px;
-
-}
-
-.item-text {
-
 }
 
 .img-road {
   margin-right: 11px;
-
 }
 
 .item-text__item-top {
@@ -144,7 +141,6 @@
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
-
 }
 
 .item-text__item-right {
@@ -152,7 +148,6 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-
 }
 
 .item-text__item-but {
@@ -199,10 +194,10 @@
 
   .header {
   display: flex;
-  margin: 23px auto 5px;
+  margin: 24px 32px 27px 15px;
   max-width: 720px;
-  justify-content: space-between;
-}
+  }
+
 
   .buttons-header {
     width: auto;
@@ -213,18 +208,73 @@
   .buttons-header__link {
     display: none;
     text-align: center;
-
   }
   
   .buttons-header__burger: {
     display: block;
   }
 
+  .buttons-header__img {
+    width: 35px;
+    height: 22px;
+  }
+
+  .main-section__post-title {
+    margin: 0;
+  }
+
   .main-section {
     max-width: 720px;
     background-image: url("img/Tesla-Wordmark-Red.svg");
     background-repeat: no-repeat;
-    background-position: 50% 16%;
-    background-size: 86%;
+    background-position: 32% 28%;
+    background-size: 115%;
+  }
+
+  .main-section__img {
+   max-width: 720px;
+   margin-top: 85px;
+   margin-right: 0;
+  }
+
+  .main-section__list {
+    margin: 0;
+    width: 487px;
+    display: block;
+  }
+
+  .list-character {
+    list-style-type: none;
+    justify-content: space-between;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  }
+
+
+  .img-speed {
+    width: 65px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  .img-road {
+    margin-right: 11px;
+  }
+  
+  .item-text__item-top {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+  }
+  
+  
+  .item-text__item-but {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
   }
 }
+
+
