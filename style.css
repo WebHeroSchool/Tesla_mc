@@ -109,7 +109,7 @@
   display: flex;
   justify-content: space-between;
   width: 60%;
-  margin: 27px 0 33px 0;
+  margin: 20px 0 27px 0;
 }
 
 .list-character {
@@ -133,7 +133,8 @@
 }
 
 .img-road {
-  margin-right: 11px;
+  margin-right: 5px;
+  margin-top: 13px;
 }
 
 .item-text__item-top {
@@ -157,8 +158,6 @@
   line-height: 15px;
 }
 
-
-
 .main-section__buttons {
   display: flex;
   align-items: center;
@@ -173,7 +172,10 @@
 }
 
 .test-drive__wheel {
-
+  background-image: url('img/wheel.svg');
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
 }
 
 .test-drive__text {
@@ -193,11 +195,9 @@
 @media (min-width: 768px) and (max-width: 1439px) {
 
   .header {
-  display: flex;
-  margin: 24px 32px 27px 15px;
-  max-width: 720px;
+  margin: 24px 0 10px 15px;
+  max-width: 94%;
   }
-
 
   .buttons-header {
     width: auto;
@@ -219,6 +219,10 @@
     height: 22px;
   }
 
+  .main-section__title {
+    margin: 75px 0 -4px 0;
+  }
+
   .main-section__post-title {
     margin: 0;
   }
@@ -227,13 +231,13 @@
     max-width: 720px;
     background-image: url("img/Tesla-Wordmark-Red.svg");
     background-repeat: no-repeat;
-    background-position: 32% 28%;
-    background-size: 115%;
+    background-position: 30% 25%;
+    background-size: 116%;
   }
 
   .main-section__img {
-   max-width: 720px;
-   margin-top: 85px;
+   max-width: 700px;
+   margin-top: 90px;
    margin-right: 0;
   }
 
@@ -241,24 +245,32 @@
     margin: 0;
     width: 487px;
     display: block;
+    margin-top: 26px;
   }
 
   .list-character {
     list-style-type: none;
     justify-content: space-between;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    max-width: 100%;
   }
 
+  .list-character__item {
+    margin-right: 18px;
+  }
 
   .img-speed {
     width: 65px;
-    height: 50px;
+    height: 61px;
     object-fit: cover;
-    margin: 0;
+    margin: 19px 20px 0 0;
   }
 
   .img-road {
-    margin-right: 11px;
+    margin: 20px 16px 0 0;
+    width: 45px;
+    height: 80px;
+    object-fit: cover;
   }
   
   .item-text__item-top {
@@ -268,13 +280,99 @@
     line-height: 61px;
   }
   
-  
   .item-text__item-but {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
   }
+
+  .main-section__buttons {
+    margin-top: 50px;
+  }
+
+  .test-drive {
+    margin-left: 33px;
+  }
+  
+  .test-drive__wheel {
+    background-image: url('img/steering-wheel-red.svg');
+    width: 31px;
+    height: 31px;
+    background-repeat: no-repeat;
+  }
+  .test-drive__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #e51937;
+    margin-left: 16px;
+  }
+
+  .link-order_white {
+    padding: 16px 61px;
+    margin-left: 39px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    background-color:  #e51937;
+    color: white;
+  }
+
+  .arrow-img {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+  .header {
+    margin: 5px 20px 0 0;
+  }
+
+  .logo__img {
+    max-width: 138px;
+    max-height: 42px;
+  }
+
+  .buttons-header {
+    width: auto;
+    padding-right: 0;
+  }
+
+  .nav,
+  .buttons-header__link {
+    display: none;
+    text-align: center;
+  }
+
+  .main-section__title {
+    display: block;
+    font: 600 50px/61px "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 26px 0 -4px 0;
+  }
+
+  .main-section__post-title {
+    font: 10px/15px "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 0 0 28px 0;
+  }
+
+  .main-section {
+    max-width: 767px;
+    background-image: url("img/Tesla-Wordmark-Red-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 28%;
+  }
+
+  .main-section__img {
+    max-width: 357px;
+    margin-top: 20px;
+    margin-right: 0;
+   }
 }
 
 
