@@ -331,7 +331,7 @@
 @media (min-width: 375px) and (max-width: 767px) {
 
   .header {
-    margin: 5px 20px 0 0;
+    margin: 5px 21px 0 0;
   }
 
   .logo__img {
@@ -365,7 +365,7 @@
     max-width: 767px;
     background-image: url("img/Tesla-Wordmark-Red-mobile.svg");
     background-repeat: no-repeat;
-    background-position: 50% 28%;
+    background-position: 50% 30%;
   }
 
   .main-section__img {
@@ -373,6 +373,89 @@
     margin-top: 20px;
     margin-right: 0;
    }
+
+   .main-section__list {
+    margin: 0;
+    width: 75%;
+    display: block;
+    margin-top: 18px;
+  }
+
+
+  .list-character {
+    margin-left: 0;
+  }
+
+  .list-character__item {
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+
+  .img-speed {
+    width: 44px;
+    height: 36px;
+    object-fit: cover;
+    margin: 7px 9px 0 0;
+  }
+
+  .img-road {
+    margin-right: 13px;
+    margin-top: 3px;
+    width: 25px;
+    height: 41px;
+    object-fit: cover;
+  }
+  
+  .item-text__item-top {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+  }
+
+  .item-text__item-but {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  
+  .item-text__item-but {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .main-section__buttons {
+    margin-top: 43px;
+  }
+
+  .test-drive__wheel {
+    background-image: url('img/steering-wheel-red-mob.svg');
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+  }
+
+  .test-drive__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #e51937;
+    margin-left: 7px;
+  }
+
+  .link-order {
+    margin-left: 21px;
+  }
+
+  .arrow-img {
+    margin-top: 30px;
+  }
 }
 
 
