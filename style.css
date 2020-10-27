@@ -365,7 +365,7 @@
     max-width: 767px;
     background-image: url("img/Tesla-Wordmark-Red-mobile.svg");
     background-repeat: no-repeat;
-    background-position: 50% 30%;
+    background-position: 50% 27%;
   }
 
   .main-section__img {
@@ -376,11 +376,11 @@
 
    .main-section__list {
     margin: 0;
-    width: 75%;
+    width: 81%;
     display: block;
     margin-top: 18px;
+    max-width: 305px;
   }
-
 
   .list-character {
     margin-left: 0;
@@ -388,8 +388,16 @@
 
   .list-character__item {
     margin-top: 8px;
-    margin-right: 10px;
+    margin-right: 18px;
     margin-left: 5px;
+  }
+
+  .item-text__item-right {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
   }
 
   .img-speed {
@@ -429,7 +437,7 @@
   }
 
   .main-section__buttons {
-    margin-top: 43px;
+    margin-top: 40px;
   }
 
   .test-drive__wheel {
