@@ -172,7 +172,7 @@
 }
 
 .test-drive__wheel {
-  background-image: url('img/wheel.svg');
+  background-image: url('img/steering-wheel.svg');
   width: 22px;
   height: 22px;
   background-repeat: no-repeat;
@@ -183,10 +183,10 @@
   margin-left: 5px;
 }
 
-.link-order {
+.link-order-red {
   display: inline-block;
   text-decoration: none;
-  padding: 18px 70px;
+  padding: 11px 41px;
   border: 2px solid #e51937;
   color: #e51937;
   margin-left: 40px;
@@ -336,12 +336,14 @@
 }
 
 .sidebar__buttons {
-  margin-top: 171px;
+  margin-top: 174px;
   margin-left: 49px;
 }
 
 .learn-more {
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .learn-more__text {
@@ -358,8 +360,15 @@
 .link-order_white {
   color: #ffffff;
   border: 2px solid #ffffff;
-  padding: 8px 47px;
+  padding: 9px 38px;
   margin-left: 32px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .section-safe {
@@ -387,16 +396,22 @@
   font-size: 30px;
   line-height: 37px;
   color: #FFFFFF;
-  margin-top: 49px;
+  margin-top: 54px;
   margin-left: 56px;
+}
+
+.protection-container {
+/*   width: 291px;
+  height: 172px; */
 }
 
 .protection-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  margin-top: 29px;
+  margin-top: 25px;
   margin-left: 56px;
+  width: 292px;
 }
 
 .item-left {
@@ -407,6 +422,8 @@
   line-height: 21px;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-bottom: 17px;
+  display: inline-block;
 }
 
 .item-leftsm {
@@ -420,6 +437,11 @@
   opacity: 0.7;
 }
 
+.star {
+  float: right;
+  margin-left: 4px;
+}
+
 .security__text-top {
   font-family: Montserrat;
   font-style: normal;
@@ -427,6 +449,7 @@
   font-size: 50px;
   line-height: 61px;
   color: #FFFFFF;
+  margin-left: 19px;
 }
 
 .security__text-but {
@@ -434,24 +457,31 @@
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
-  line-height: 30px;
+  line-height: 15px;
   color: #FFFFFF;
+  margin-left: 19px;
 }
 
 .sidebar__wrap {
   width: 280px;
   display: inline-block;
   margin-left: 66px;
-  margin-top: 111px;
+  margin-top: 84px;
 }
 
 .security {
   display: inline-block;
 }
 
+.learn-more__img {
+  margin-top: 5px;
+}
+
 .sidebar-safe-buttons {
   margin-top: 60px;
   margin-left: 49px;
+  display: flex;
+  align-items: center;
 }
 
 
