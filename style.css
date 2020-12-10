@@ -269,6 +269,7 @@
 
 .sidebar__list {
   margin-top: 60px;
+  margin-bottom: 169px;
 }
 
 .list-characters {
@@ -335,11 +336,6 @@
   padding-right: 24px;
 }
 
-.sidebar__buttons {
-  margin-top: 174px;
-  margin-left: 49px;
-}
-
 .learn-more {
   text-decoration: none;
   display: flex;
@@ -355,13 +351,14 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  margin-left: 7px;
 }
 
 .link-order_white {
   color: #ffffff;
   border: 2px solid #ffffff;
-  padding: 9px 38px;
-  margin-left: 32px;
+  padding: 11px 39px;
+  margin-left: 33px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -473,13 +470,9 @@
   display: inline-block;
 }
 
-.learn-more__img {
-  margin-top: 5px;
-}
-
-.sidebar-safe-buttons {
+.sidebar-buttons {
   margin-top: 60px;
-  margin-left: 49px;
+  margin-left: 38px;
   display: flex;
   align-items: center;
 }
@@ -750,12 +743,6 @@
   
   .img-bag {
     padding-right: 24px;
-  }
-  
-  .sidebar__buttons {
-    margin-top: 171px;
-    margin-left: 49px;
-    display: inline-block;
   }
   
   .learn-more {
