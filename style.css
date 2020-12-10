@@ -651,6 +651,7 @@
     max-width: 768px;
     position: static;
     width: 100vw;
+    height: 487px;
   }
   
   .head {
@@ -754,7 +755,7 @@
     display: flex;
     align-items: center;
   }
-  
+
   .learn-more {
     text-decoration: none;
   }
@@ -783,6 +784,29 @@
     max-width: 768px;
     height: auto;
 }
+
+  .section-safe {
+    display: flex;
+    position: static;
+    background-image: url(img/Model S mark.png);
+    background-repeat: no-repeat;
+    background-position: 100% 18%;
+    height: auto;
+    flex-direction: column-reverse;
+  }
+
+  .sidebar_safe {
+    background: #E51937;
+    max-width: 768px;
+    position: static;
+    height: 900px;
+  }
+
+  .section-safe__img {
+    position: static;
+  }
+}
+
 
 
 
