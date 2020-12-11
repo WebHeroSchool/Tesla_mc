@@ -190,11 +190,6 @@
   border: 2px solid #e51937;
   color: #e51937;
   margin-left: 40px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 16px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -602,7 +597,7 @@
     margin-left: 16px;
   }
 
-  .link-order_white {
+  .link-order-red {
     padding: 16px 61px;
     margin-left: 39px;
     font-family: Montserrat;
@@ -613,6 +608,7 @@
     background-color:  #e51937;
     color: white;
   }
+
 
   .arrow-img {
     margin-top: 60px;
@@ -630,7 +626,7 @@
   .section-about__header {
     position: relative;
     display: inline-block;
-    margin-top: 57px;
+    margin-top: 21px;
   }
   
   .section-about__title {
@@ -643,7 +639,7 @@
     position: absolute;
     left: 434px;
     margin: 0;
-    margin-top: 0px;
+    margin-top: 14px;
   }
   
   .sidebar {
@@ -652,6 +648,7 @@
     position: static;
     width: 100vw;
     height: 487px;
+    margin-top: -4px;
   }
   
   .head {
@@ -680,7 +677,7 @@
   }
   
   .sidebar__list {
-    margin-top: 0px;
+    margin-top: 5px;
     display: inline-block;
     margin-bottom: 0px;
   }
@@ -750,8 +747,8 @@
   }
 
   .sidebar-buttons {
-    margin-top: 60px;
-    margin-left: 152px;
+    margin-top: 66px;
+    margin-left: 154px;
     display: flex;
     align-items: center;
   }
@@ -776,8 +773,8 @@
   .link-order_white {
     color: #ffffff;
     border: 2px solid #ffffff;
-    padding: 8px 47px;
-    margin-left: 32px;
+    padding: 16px 70px;
+    margin-left: 44px;
   }
 
   .section-about__img {
