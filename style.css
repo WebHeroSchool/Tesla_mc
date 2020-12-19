@@ -460,23 +460,18 @@
   display: inline-block;
 }
 
-.sidebar-buttons {
+.sidebar-button {
   margin-top: 60px;
   margin-left: 38px;
   display: flex;
   align-items: center;
 }
 
-
 .section-safe__img {
   position: absolute;
   top: 168px;
   left: 345px;
 }
-
-
-
-
 
 @media (min-width: 768px) and (max-width: 1439px) {
 
@@ -609,12 +604,10 @@
     color: white;
   }
 
-
   .arrow-img {
     margin-top: 60px;
     /* margin-bottom: 93px; */
   }
-
 
   .section-about {
     flex-direction: column;
@@ -662,7 +655,8 @@
     font-size: 30px;
     line-height: 37px;
     color: #FFFFFF;
-    margin: 0 49px 26px 34px;
+    margin: 64px 49px 14px 34px;
+    width: 316px;
   }
   
   .head__text {
@@ -748,7 +742,7 @@
 
   .sidebar-buttons {
     margin-top: 66px;
-    margin-left: 154px;
+    margin-left: 155px;
     display: flex;
     align-items: center;
   }
@@ -768,6 +762,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-left: 10px;
   }
   
   .link-order_white {
@@ -785,9 +780,9 @@
   .section-safe {
     display: flex;
     position: static;
-    background-image: url(img/Model S mark.png);
+    background-image: url('img/Model S ipad.png');
     background-repeat: no-repeat;
-    background-position: 100% 18%;
+    background-position: 54% 8%;
     height: auto;
     flex-direction: column-reverse;
   }
@@ -796,12 +791,65 @@
     background: #E51937;
     max-width: 768px;
     position: static;
-    height: 900px;
+    height: 488px;
+    position: relative;
+  }
+
+  .sidebar__protection-mark {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-top: 64px;
+    margin-left: 19px;
+    display: inline-block;
+    position: absolute;
+  }
+
+  .protection-container {
+    display: inline-block;
+    display: inline-block;
+    position: absolute;
+    top: 128px;
+    right: 54px;
+  }
+
+  .protection-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    margin-left: 19px;
+    width: 292px;
+  }
+
+  .sidebar__wrap {
+    width: 280px;
+    display: inline-block;
+    margin-left: 66px;
+    margin-top: 84px;
+    display: none;
+  }
+
+  .sidebar-button {
+    margin-top: 94px;
+    margin-left: 155px;
+    display: flex;
+    align-items: center;
   }
 
   .section-safe__img {
     position: static;
+    width: 750px;
+    padding-top: 38px;
+    padding-bottom: 16px;
   }
+  .learn-more__img {
+    width: 30px;
+  }
+  
 }
 
 
@@ -950,6 +998,101 @@
   .arrow-img {
     margin-top: 30px;
   }
+
+  .section-about__title {
+    display: none;
+  }
+
+  .section-about__img {
+    height: 337px;
+  }
+
+  .section-about__header {
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+  }
+
+  .sidebar {
+    background: #E51937;
+    max-width: 375px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 26px;
+  }
+  
+  .head__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    max-width: 316px;
+    margin-left: 0px;
+  }
+
+  .sidebar__list {
+    display: none;
+  }
+
+  .sidebar-buttons {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+  .sidebar_safe {
+    background: #E51937;
+    max-width: 375px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 304px;
+  }
+
+  .head__topic {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin: 0px 0px 9px 0px;
+  }
+
+  .sidebar__protection-mark {
+    display: none;
+  }
+
+  .protection-container {
+    display: none;
+  }
+
+  .sidebar__wrap {
+    display: none;
+  }
+
+  .sidebar-button {
+    display: none;
+  }
+
+
+
 }
 
 
