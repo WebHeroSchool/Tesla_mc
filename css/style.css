@@ -197,6 +197,7 @@
   display: flex;
   position: relative;
   height: 900px;
+  overflow-y: hidden;
 }
 
 .section-about__header {
@@ -220,7 +221,6 @@
 
 .section-about__img {
   height: 100%;
-  width: 100%;
 }
 
 .sidebar {
@@ -467,9 +467,13 @@
 }
 
 .section-safe__img {
-    width: 100%;
-    max-width: 1037px;
-    margin-right: auto;
-    margin-left: -45px;
-    margin-top: 9px;
+  width: 100%;
+  max-width: 1037px;
+  margin-right: auto;
+  margin-left: -95px;
+  margin-top: 41px;
+}
+
+.section-safe__image {
+  width: 100%;
 }

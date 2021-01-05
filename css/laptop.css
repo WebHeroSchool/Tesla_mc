@@ -1,12 +1,12 @@
 @media screen and (max-width: 768px) {
 
-  .header {
-    margin: 5px 21px 0 0;
+  .body {
+    width: 768px;
   }
 
-  .logo__img {
-    max-width: 138px;
-    max-height: 42px;
+  .header {
+  margin: 24px 0 10px 15px;
+  max-width: 94%;
   }
 
   .buttons-header {
@@ -19,84 +19,75 @@
     display: none;
     text-align: center;
   }
+  
+  .buttons-header__burger {
+    display: block;
+  }
+
+  .buttons-header__img {
+    width: 35px;
+    height: 22px;
+  }
 
   .main-section__title {
-    display: block;
-    font: 600 50px/61px "Montserrat", Arial, Helvetica, sans-serif;
-    margin: 26px 0 -4px 0;
+    margin: 75px 0 -4px 0;
   }
 
   .main-section__post-title {
-    font: 10px/15px "Montserrat", Arial, Helvetica, sans-serif;
-    margin: 0 0 28px 0;
+    margin: 0;
   }
 
   .main-section {
-    max-width: 767px;
-    background-image: url("img/Tesla-Wordmark-Red-mobile.svg");
+    max-width: 720px;
+    background-image: url("../img/Tesla-Wordmark-Red.svg");
     background-repeat: no-repeat;
-    background-position: 50% 27%;
+    background-position: 30% 25%;
+    background-size: 116%;
   }
 
   .main-section__img {
-    max-width: 357px;
-    margin-top: 20px;
-    margin-right: 0;
-   }
+   max-width: 700px;
+   margin-top: 90px;
+   margin-right: 0;
+  }
 
-   .main-section__list {
+  .main-section__list {
     margin: 0;
-    width: 81%;
+    width: 487px;
     display: block;
-    margin-top: 18px;
-    max-width: 305px;
+    margin-top: 26px;
   }
 
   .list-character {
-    margin-left: 0;
+    list-style-type: none;
+    justify-content: space-between;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    max-width: 100%;
   }
 
   .list-character__item {
-    margin-top: 8px;
     margin-right: 18px;
-    margin-left: 5px;
-  }
-
-  .item-text__item-right {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 18px;
   }
 
   .img-speed {
-    width: 44px;
-    height: 36px;
+    width: 65px;
+    height: 61px;
     object-fit: cover;
-    margin: 7px 9px 0 0;
+    margin: 19px 20px 0 0;
   }
 
   .img-road {
-    margin-right: 13px;
-    margin-top: 3px;
-    width: 25px;
-    height: 41px;
+    margin: 20px 16px 0 0;
+    width: 45px;
+    height: 80px;
     object-fit: cover;
   }
   
   .item-text__item-top {
     font-style: normal;
     font-weight: 600;
-    font-size: 27px;
-    line-height: 33px;
-  }
-
-  .item-text__item-but {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 50px;
+    line-height: 61px;
   }
   
   .item-text__item-but {
@@ -107,62 +98,95 @@
   }
 
   .main-section__buttons {
-    margin-top: 40px;
+    margin-top: 50px;
   }
 
+  .test-drive {
+    margin-left: 33px;
+  }
+  
   .test-drive__wheel {
-    background-image: url('img/steering-wheel-red-mob.svg');
-    width: 22px;
-    height: 22px;
+    background-image: url('img/steering-wheel-red.svg');
+    width: 31px;
+    height: 31px;
     background-repeat: no-repeat;
   }
-
   .test-drive__text {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 20px;
     color: #e51937;
-    margin-left: 7px;
+    margin-left: 16px;
   }
 
-  .link-order {
-    margin-left: 21px;
+  .link-order-red {
+    padding: 16px 61px;
+    margin-left: 39px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    background-color:  #e51937;
+    color: white;
   }
 
   .arrow-img {
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
-  .section-about__title {
-    display: none;
-  }
-
-  .section-about__img {
-    height: 337px;
+  .section-about {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    position: static;
+    height: 1014px;
   }
 
   .section-about__header {
     position: relative;
     display: inline-block;
-    margin-top: 0px;
+    margin-top: 21px;
   }
-
+  
+  .section-about__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 85px;
+    color: #E51937;
+    position: absolute;
+    left: 434px;
+    margin: 0;
+    margin-top: 14px;
+  }
+  
   .sidebar {
     background: #E51937;
-    max-width: 375px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
+    max-width: 768px;
+    position: static;
+    width: 100%;
+    height: 487px;
+    margin-top: -4px;
   }
-
+  
   .head {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 26px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .head__topic {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin: 60px 49px 22px 34px;
+    width: 316px;
   }
   
   .head__text {
@@ -173,49 +197,211 @@
     line-height: 18px;
     color: #FFFFFF;
     max-width: 316px;
-    margin-left: 0px;
+    margin-left: 35px;
+  }
+  
+  .sidebar__list {
+    margin-top: 30px;
+    display: inline-block;
+    margin-bottom: 0px;
+  }
+  
+  .list-characters {
+    max-width: 255px;
+    height: 270px;
+    list-style-type: none;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 52px;
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-characters__item {
+    display: flex;
+    margin-top: 22px;
   }
 
-  .sidebar__list {
-    display: none;
+  .list-characters__item:first-child {
+    margin-top: 29px;
+  }
+  
+  .wrap__top-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 35px;
+    line-height: 43px;
+  }
+  
+  .wrap__but-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+  
+  .wrap__right-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .wrap__wifi-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+  
+  .img-screen {
+    padding-right: 19px;
+    padding-top: 14px;
+  }
+  
+  .img-wifi {
+    padding-right: 20px;
+  }
+  
+  .img-bag {
+    padding-right: 24px;
   }
 
   .sidebar-buttons {
-    display: none;
+    margin-top: 66px;
+    margin-left: 155px;
+    display: flex;
+    align-items: center;
+  }
+
+  .learn-more {
+    text-decoration: none;
+  }
+  
+  .learn-more__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 10px;
+  }
+  
+  .link-order_white {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 16px 70px;
+    margin-left: 44px;
+  }
+
+  .section-about__img {
+    max-width: 768px;
+    height: auto;
+}
+
+  .section-safe {
+    display: flex;
+    position: static;
+    background-image: url('../img/Model S ipad.png');
+    background-repeat: no-repeat;
+    background-position: 54% 7%;
+    height: auto;
+    flex-direction: column-reverse;
   }
 
   .sidebar_safe {
     background: #E51937;
-    max-width: 375px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 304px;
+    max-width: 768px;
+    position: static;
+    height: 488px;
+    position: relative;
   }
 
-  .head__topic {
+  .head__topic_safe {
+    margin: 62px 49px 15px 34px;
+  }
+
+  .sidebar__protection-mark {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
     color: #FFFFFF;
-    margin: 0px 0px 9px 0px;
-  }
-
-  .sidebar__protection-mark {
-    display: none;
+    margin-top: 64px;
+    margin-left: 19px;
+    display: inline-block;
+    position: absolute;
   }
 
   .protection-container {
-    display: none;
+    display: inline-block;
+    display: inline-block;
+    position: absolute;
+    top: 128px;
+    right: 54px;
+  }
+
+  .protection-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    margin-left: 19px;
+    width: 292px;
   }
 
   .sidebar__wrap {
+    width: 280px;
+    display: inline-block;
+    margin-left: 66px;
+    margin-top: 84px;
     display: none;
   }
 
   .sidebar-button {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 92px;
+  }
+
+  .sidebar-button_up {
+    margin-top: 70px;
+  }
+
+  .section-safe__img {
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 38px;
+    margin: 0px;
+  }
+
+  .section-safe_ch {
+    align-items: stretch;
+    justify-content: start;
+  }
+
+  .learn-more__img {
+    width: 30px;
+  }
+
+  .section-safe__image {
+    width: 97%;
   }
 }
