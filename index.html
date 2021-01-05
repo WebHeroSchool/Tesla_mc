@@ -3,132 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Tesla</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body">
   <header class="header">
-    <div class="container_header">
-      <div class="logo">
-        <a href="#" class="logo__link">
-          <img src="img/logo.svg" alt="logo" class="logo__img">
-        </a>
-      </div>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="" class="nav__link nav__link_active">Model S</a>
-          </li>
-          <li class="nav__item">
-            <a href="" class="nav__link">Model X</a>
-          </li>
-          <li class="nav__item">
-            <a href="" class="nav__link">Model 3</a>
-          </li>
-          <li class="nav__item">
-            <a href="" class="nav__link">Roadster</a>
-          </li>
-          <li class="nav__item">
-            <a href="" class="nav__link">Energy</a>
-          </li>   
-        </ul>
-      </nav>
-      <div class="buttons-header">
-        <ul class="right-list">
-          <li class="right-list__item">
-            <a href="" class="right-list__link">Магазин</a>
-          </li>
-          <li class="right-list__item">
-            <a href="" class="right-list__link">Войти</a>
-          </li>
-          <li class="right-list__item">
-            <a href="img/menu.svg" class="right-list__burger"></a>
-          </li>
-        </ul>
-      </div>
+    <div class="logo">
+      <a href="#" class="logo__link">
+        <img src="img/logo.svg" alt="logo" class="logo__img">
+      </a>
+    </div>
+    <nav class="nav">
+      <a href="#" class="nav__link nav__link_active">Model S</a>
+      <a href="#" class="nav__link">Model X</a>
+      <a href="#" class="nav__link">Model 3</a>
+      <a href="#" class="nav__link">Roadster</a>
+      <a href="#" class="nav__link">Energy</a>
+    </nav>
+    <div class="buttons-header">
+      <a href="#" class="buttons-header__link">Магазин</a>
+      <a href="#" class="buttons-header__link">Войти</a>
+      <a href="#" class="buttons-header__burger"><img src="img/menu.svg" alt="" class="buttons-header__img"></a>
     </div>
   </header>
   <main class="main">
     <section class="main-section">
       <h1 class="main-section__title">Model S</h1>
       <p class="main-section__post-title">Добро пожаловать в будущее!</p>
-      <img src="img/Tesla logo + car.png" alt="Testla" class="main-section__img">
+      <img src="img/tesla_about.svg" alt="Testla" class="main-section__img">
       <div class="main-section__list">
         <ul class="list-character">
           <li class="list-character__item">
             <img src="img/speed.svg" alt="" class="img-speed">
             <div class="item-text">
-              <div class="item-text__item-top">2,7<span class="item-text__item-right">сек</span></div> 
+              <div class="item-text__item-top">2,7<span class="item-text__item-right"> сек</span></div> 
               <div class="item-text__item-but">0-100 км/час</div>
             </div>
           </li>
           <li class="list-character__item">
             <img src="img/road.svg" alt="road" class="img-road">
             <div class="item-text">
-              <div class="item-text__item-top">632<span class="item-text__item-right">км</span></div>
+              <div class="item-text__item-top">632<span class="item-text__item-right"> км</span></div>
               <div class="item-text__item-but">запас хода</div>
             </div>
           </li>
         </ul>
         <div class="main-section__buttons">
           <a href="" class="test-drive">
-            <svg class="test-drive__img" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <span class="test-drive__text">Тест драйв</span>
+            <img src="img/steering-wheel.svg" alt="" class="test-drive__wheel test-drive__wheel_red">
+            <div class="test-drive__text"> Тест драйв</div>
           </a>
-          <a href="" class="link-order link-order_white">
-            <span class="link-order__button-text link-order__button-text_white">Заказать</span>
-          </a>
+          <a href="" class="link-order-red">Заказать</a>
         </div>
       </div>
       <a class="arrow-link" href="#"><img class="arrow-img" src="img/vector.svg" alt="arrow"></a>
     </section>
     <section class="section-about">
       <div class="section-about__header">
-        <h2>Model S</h2>
+        <h2 class="section-about__title">Model S</h2>
         <img class="section-about__img" src="img/2013-tesla-model-s-cockpit.png" alt="Tesla">
       </div>
       <div class="sidebar">
         <div class="head">
           <div class="head__topic">Будущее вождения</div>
-          <div class="head__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</div>
+          <div class="head__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным <span style="white-space: nowrap;">17-дюймовым</span> сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</div>
         </div>
         <div class="sidebar__list">
           <ul class="list-characters">
-            <li class="list-character__item">
-              <img src="img/screen.svg" alt="screen" class="img-sidebar">
+            <li class="list-characters__item">
+              <img src="img/screen.svg" alt="screen" class="img-screen">
               <div class="wrap">
-                <div class="wrap__top-text">17<span class="wrap__right-text">дюймов</span></div> 
+                <div class="wrap__top-text">17 <span class="wrap__right-text">дюймов</span></div> 
                 <div class="wrap__but-text">Большой дисплей</div>
               </div>
             </li>
-            <li class="list-character__item">
-              <img src="img/wifi.svg" alt="" class="img-sidebar">
+            <li class="list-characters__item">
+              <img src="img/wifi.svg" alt="" class="img-wifi">
               <div class="wrap">
-                <div class="wrap__top-text">Беспроводное обновление ПО</div>
+                <span class="wrap__wifi-text">Беспроводное обновление ПО</span>
                 <div class="wrap__but-text">Повышенная функциональностьй</div>
               </div>
             </li>
-            <li class="list-character__item">
-              <img src="img/bag.svg" alt="" class="img-sidebar">
+            <li class="list-characters__item">
+              <img src="img/bag.svg" alt="" class="img-bag">
               <div class="wrap">
-                <div class="wrap__top-text">894<span class="rwrap__ight-text">литра</span></div>
+                <div class="wrap__top-text">894 <span class="wrap__right-text">литра</span></div>
                 <div class="wrap__but-text">Объем грузового пространства</div>
               </div>
             </li>
           </ul>
         </div>
-        <div class="sidebar__buttons">
+        <div class="sidebar-button sidebar-button_up">
           <a href="" class="learn-more">
-            <img src="img/Group.svg" alt="" class="learn-more__img">
+            <img src="img/Group 20.png" alt="" class="learn-more__img">
             <span class="learn-more__text">Узнать больше</span>
           </a>
-          <a href="" class="link-order">
-            <span class="link-order__button-text">Заказать</span>
-          </a>
+          <a href="" class="link-order link-order_white">Заказать</a>
         </div>
       </div>
     </section>
-    <section class="section-safe">
-      <div class="sidebar sidebar_safe">
+    <section class="section-safe section-safe_ch">
+      <div class="sidebar_safe">
         <div class="head head_safe">
           <div class="head__topic head__topic_safe">Самый безопасный автомобиль в мире</div>
           <div class="head__text head__text_safe">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</div>
@@ -153,7 +129,7 @@
             </li>
             <li class="protection-list__item">
               <span class="item-left">Сбоку</span>
-              <span class="">(стойка)</span>
+              <span class="item-leftsm">(стойка)</span>
               <img src="img/Star.svg" alt="" class="star">
               <img src="img/Star.svg" alt="" class="star">
               <img src="img/Star.svg" alt="" class="star">
@@ -185,17 +161,17 @@
             <div class="security__text-but">безопасности</div>
           </div>
         </div>
-        <div class="sidebar__buttons">
+        <div class="sidebar-button">
           <a href="" class="learn-more">
             <img src="img/Group.svg" alt="" class="learn-more__img">
             <span class="learn-more__text">Узнать больше</span>
           </a>
-          <a href="" class="link-order">
-            <span class="link-order__button-text">Заказать</span>
-          </a>
+          <a href="" class="link-order link-order_white">Заказать</a>
         </div>
       </div>
-      <img src="img/Car frame group.png" alt="Testla" class="section-safe__img">
+      <div class="section-safe__img">
+        <img src="img/Car frame group.png" alt="Testla" class="section-safe__image">
+      </div>
     </section>
   </main>
 </body>
