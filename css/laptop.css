@@ -105,8 +105,8 @@
     margin-left: 33px;
   }
   
-  .test-drive__wheel {
-    background-image: url('img/steering-wheel-red.svg');
+  .test-drive__wheel_red {
+    background-image: url('../img/steering-wheel-red.svg');
     width: 31px;
     height: 31px;
     background-repeat: no-repeat;

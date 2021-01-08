@@ -41,7 +41,7 @@
 
   .main-section {
     max-width: 767px;
-    background-image: url("img/Tesla-Wordmark-Red-mobile.svg");
+    background-image: url("../img/Tesla-Wordmark-Red-mobile.svg");
     background-repeat: no-repeat;
     background-position: 50% 27%;
   }
@@ -124,7 +124,7 @@
   }
 
   .test-drive__wheel {
-    background-image: url('img/steering-wheel-red-mob.svg');
+    background-image: url('../img/steering-wheel-red-mobile.svg');
     width: 22px;
     height: 22px;
     background-repeat: no-repeat;
