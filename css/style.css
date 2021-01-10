@@ -173,6 +173,10 @@
   height: 22px;
 }
 
+.test-drive__wheel-red {
+  display: none;
+}
+
 .test-drive__text {
   color: #000;
   margin-left: 5px;
@@ -221,6 +225,10 @@
 
 .section-about__img {
   height: 100%;
+}
+
+.section-about__img-mobile {
+  display: none;
 }
 
 .sidebar {
@@ -476,4 +484,8 @@
 
 .section-safe__image {
   width: 100%;
+}
+
+.section-safe__image-mobile {
+  display: none;
 }
