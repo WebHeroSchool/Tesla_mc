@@ -44,6 +44,7 @@
     background-image: url("../img/Tesla-Wordmark-Red-mobile.svg");
     background-repeat: no-repeat;
     background-position: 50% 27%;
+    background-size: 100%;
   }
 
   .main-section__img {
@@ -124,10 +125,11 @@
   }
 
   .test-drive__wheel {
-    background-image: url('../img/steering-wheel-red-mobile.svg');
+    display: none;
+  }
+
+  .test-drive__wheel-red {
     width: 22px;
-    height: 22px;
-    background-repeat: no-repeat;
   }
 
   .test-drive__text {
@@ -145,7 +147,7 @@
   }
 
   .link-order-red {
-    padding: 8px 30px;
+    padding: 8px 39px;
     font-size: 13px;
     margin-left: 0px;
 
@@ -154,6 +156,10 @@
   .arrow-img {
     margin-top: 30px;
   }
+
+  .arrow-link {
+    margin-bottom: -6px;
+}
 
   .section-about {
     height: auto;
@@ -166,7 +172,12 @@
 
   .section-about__img {
     height: auto;
-    width: 117%;
+    width: 118%;
+    display: none;
+  }
+
+  .section-about__img-mobile {
+    display: block;
   }
 
   .section-about__header {
@@ -186,7 +197,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 18px 26px 43px;
+    padding: 23px 29px 43px;
   }
   
   .head__text {
@@ -245,6 +256,14 @@
   .section-safe__img {
     padding-top: 55px;
     padding-bottom: 29px;
+  }
+
+  .section-safe__image {
+    display: none;
+  }
+
+  .section-safe__image-mobile {
+    display: block;
   }
 
   .sidebar-button {

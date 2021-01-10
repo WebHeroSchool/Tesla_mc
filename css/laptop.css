@@ -105,12 +105,17 @@
     margin-left: 33px;
   }
   
-  .test-drive__wheel_red {
-    background-image: url('../img/steering-wheel-red.svg');
+  .test-drive__wheel {
     width: 31px;
     height: 31px;
-    background-repeat: no-repeat;
+    display: none;
   }
+
+  .test-drive__wheel-red {
+    width: 31px;
+    display: block;
+  }
+
   .test-drive__text {
     font-family: Montserrat;
     font-style: normal;
@@ -313,6 +318,10 @@
     height: auto;
 }
 
+.section-about__img-mobile {
+  display: none;
+}
+
   .section-safe {
     display: flex;
     position: static;
@@ -403,5 +412,9 @@
 
   .section-safe__image {
     width: 97%;
+  }
+
+  .section-safe__image-mobile {
+    display: none;
   }
 }
